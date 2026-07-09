@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Mi_Biblioteca</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DTOs\" />
+    <Folder Include="Middleware\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MiBiblioteca.Application\MiBiblioteca.Application.csproj" />
+    <ProjectReference Include="..\MiBiblioteca.Infrastructure\MiBiblioteca.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
