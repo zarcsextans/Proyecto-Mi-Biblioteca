@@ -13,6 +13,3 @@ Biblioteca Digital es una aplicación web desarrollada para gestionar libros, us
 **Desarrollado por:**  
 Scarlet Angelina Ruelas Cardeña  
 TSU Desarrollo e Innovación en Software  
-
-Repositorio del proyecto:  
-https://github.com/zarcsextans/Proyecto-Mi-Biblioteca
