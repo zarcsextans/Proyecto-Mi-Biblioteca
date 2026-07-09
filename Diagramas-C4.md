@@ -161,4 +161,6 @@ flowchart LR
 ```
 Dirigido a: Desarrolladores que necesitan trabajar directamente con la implementación. El diagrama de componentes muestra la estructura interna de la API REST de Mi Biblioteca. Se observan los controladores encargados de recibir solicitudes, los servicios que contienen la lógica del negocio, los repositorios para la gestión de datos y los patrones GoF implementados para mejorar la flexibilidad y mantenibilidad del sistema.
 
+## Cláusula de IA
 
+Este proyecto fue desarrollado con apoyo de herramientas de inteligencia artificial para la generación de ideas, mejora de documentación y asistencia durante el proceso de desarrollo.  
