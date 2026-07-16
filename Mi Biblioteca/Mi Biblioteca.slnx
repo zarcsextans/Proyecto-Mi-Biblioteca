@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Elementos de la solución/">
+    <File Path=".gitignore" />
+  </Folder>
   <Project Path="../MiBiblioteca.Application/MiBiblioteca.Application.csproj" Id="f09756b8-1a6d-4932-ad6d-2ef0b260e94d" />
   <Project Path="../MiBiblioteca.Domain/MiBiblioteca.Domain.csproj" Id="2d1bc552-ffa2-4d6c-957d-73da555678d8" />
   <Project Path="../MiBiblioteca.Infrastructure/MiBiblioteca.Infrastructure.csproj" Id="db5abccf-4003-4671-8f30-289105565ba4" />
