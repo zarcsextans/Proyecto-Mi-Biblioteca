@@ -28,3 +28,6 @@ Se implementó de esta manera durante la etapa inicial del desarrollo para reduc
 
 ### Costo de no pagarla
 Cambiar configuraciones entre ambientes de desarrollo, pruebas y producción requiere modificar el código manualmente. Esto aumenta el riesgo de errores y dificulta el mantenimiento del sistema.
+
+### Propuesta de solución
+Mover la configuración a archivos externos como `appsettings.json` y variables de entorno. Utilizar Dependency Injection para administrar servicios y configuraciones de forma más flexible.
