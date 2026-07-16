@@ -2,10 +2,10 @@
 
 ## Deuda técnica #1: Persistencia de datos con almacenamiento local
 
-### Qué es
+### ¿Qué es?
 Actualmente el sistema de biblioteca almacena la información de libros, usuarios y préstamos utilizando archivos locales o estructuras temporales en memoria, en lugar de utilizar una base de datos.
 
-### Por qué existe
+### ¿Por qué existe?
 Esta decisión se tomó para avanzar rápidamente con la implementación inicial del sistema y validar las funcionalidades principales antes de integrar una solución de persistencia más robusta.
 
 
@@ -17,3 +17,8 @@ Migrar la persistencia a una base de datos utilizando Entity Framework Core, imp
 
 
 ---
+
+## Deuda técnica #2: Configuración del sistema escrita directamente en el código
+
+### Qué es
+Algunos valores del sistema, como rutas de archivos, parámetros de configuración de préstamos o valores predeterminados, se encuentran definidos directamente dentro del código fuente.
