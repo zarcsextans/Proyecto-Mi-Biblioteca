@@ -26,3 +26,5 @@ Algunos valores del sistema, como rutas de archivos, parámetros de configuraci�
 ### ¿Por qué existe?
 Se implementó de esta manera durante la etapa inicial del desarrollo para reducir el tiempo de configuración y facilitar las pruebas locales.
 
+### Costo de no pagarla
+Cambiar configuraciones entre ambientes de desarrollo, pruebas y producción requiere modificar el código manualmente. Esto aumenta el riesgo de errores y dificulta el mantenimiento del sistema.
