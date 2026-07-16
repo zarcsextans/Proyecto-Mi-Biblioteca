@@ -7,3 +7,8 @@ Actualmente el sistema de biblioteca almacena la información de libros, usuario
 
 ### Por qué existe
 Esta decisión se tomó para avanzar rápidamente con la implementación inicial del sistema y validar las funcionalidades principales antes de integrar una solución de persistencia más robusta.
+
+
+### Costo de no pagarla
+Si la cantidad de libros, usuarios y préstamos aumenta, el sistema puede presentar problemas de rendimiento, dificultad para realizar búsquedas y riesgo de pérdida de información. Además, sería complicado permitir varios usuarios trabajando al mismo tiempo.
+
