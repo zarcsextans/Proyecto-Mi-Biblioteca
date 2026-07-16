@@ -31,3 +31,85 @@ Cambiar configuraciones entre ambientes de desarrollo, pruebas y producción req
 
 ### Propuesta de solución
 Mover la configuración a archivos externos como `appsettings.json` y variables de entorno. Utilizar Dependency Injection para administrar servicios y configuraciones de forma más flexible.
+
+---
+
+## Diagrama
+
+```mermaid
+flowchart LR
+
+    U[👤 Usuario]
+
+    subgraph WEB["Biblioteca.Web"]
+        C[Controllers]
+        V[Views]
+        M[ViewModels]
+    end
+
+    subgraph APP["Biblioteca.Application"]
+        S[Services]
+        DTO[DTOs]
+        IS[IService Interfaces]
+    end
+
+    subgraph DOMAIN["Biblioteca.Domain"]
+
+        E[Entities<br/>Libro<br/>Usuario<br/>Prestamo]
+
+        F["🏭 Factory Method
+LibroFactory"]
+
+        ST["⚙️ Strategy
+CalculoMultaStrategy"]
+
+        O["👀 Observer
+NotificacionDisponibilidad"]
+
+        D["🎁 Decorator
+PrestamoPremium"]
+
+        SG["🔒 Singleton
+ConfiguracionBiblioteca"]
+
+        IR[IRepository Interfaces]
+
+    end
+
+    subgraph INFRA["Biblioteca.Infrastructure"]
+
+        R[Repositories]
+
+        EF[Entity Framework Core]
+
+        CFG["appsettings.json
+Variables de entorno"]
+
+        DB[(SQL Server / PostgreSQL)]
+
+    end
+
+    U --> C
+    C --> S
+
+    S --> DTO
+    S --> IS
+
+    IS --> E
+
+    E --> F
+    E --> ST
+    E --> O
+    E --> D
+    E --> SG
+
+    E --> IR
+
+    IR --> R
+
+    R --> EF
+
+    EF --> DB
+
+    CFG --> EF
+```
