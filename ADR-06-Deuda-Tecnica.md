@@ -1,8 +1,7 @@
-# ADR-05: Deudas técnicas del proyecto
+# ADR-05: Deudas técnicas del proyecto Biblioteca
 
-## Deuda técnica #1: Persistencia basada en archivos JSON
+## Deuda técnica #1: Persistencia de datos con almacenamiento local
 
 ### Qué es
-Actualmente el sistema almacena la información utilizando archivos JSON locales. 
-Las operaciones de lectura y escritura se realizan directamente sobre archivos del servidor.
+Actualmente el sistema de biblioteca almacena la información de libros, usuarios y préstamos utilizando archivos locales o estructuras temporales en memoria, en lugar de utilizar una base de datos.
 
