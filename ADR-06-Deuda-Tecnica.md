@@ -20,5 +20,9 @@ Migrar la persistencia a una base de datos utilizando Entity Framework Core, imp
 
 ## Deuda técnica #2: Configuración del sistema escrita directamente en el código
 
-### Qué es
+### ¿Qué es?
 Algunos valores del sistema, como rutas de archivos, parámetros de configuración de préstamos o valores predeterminados, se encuentran definidos directamente dentro del código fuente.
+
+### ¿Por qué existe?
+Se implementó de esta manera durante la etapa inicial del desarrollo para reducir el tiempo de configuración y facilitar las pruebas locales.
+
