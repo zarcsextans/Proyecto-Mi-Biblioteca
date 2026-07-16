@@ -12,3 +12,8 @@ Esta decisión se tomó para avanzar rápidamente con la implementación inicial
 ### Costo de no pagarla
 Si la cantidad de libros, usuarios y préstamos aumenta, el sistema puede presentar problemas de rendimiento, dificultad para realizar búsquedas y riesgo de pérdida de información. Además, sería complicado permitir varios usuarios trabajando al mismo tiempo.
 
+### Propuesta de solución
+Migrar la persistencia a una base de datos utilizando Entity Framework Core, implementar el patrón Repository para separar el acceso a datos y mejorar la escalabilidad del sistema.
+
+
+---
