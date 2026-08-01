@@ -1,0 +1,16 @@
+C:\Users\zarcs\Documents\Mi biblioteca\MiBiblioteca.Application\bin\Debug\net10.0\MiBiblioteca.Application.deps.json
+C:\Users\zarcs\Documents\Mi biblioteca\MiBiblioteca.Application\bin\Debug\net10.0\MiBiblioteca.Application.dll
+C:\Users\zarcs\Documents\Mi biblioteca\MiBiblioteca.Application\bin\Debug\net10.0\MiBiblioteca.Application.pdb
+C:\Users\zarcs\Documents\Mi biblioteca\MiBiblioteca.Application\bin\Debug\net10.0\MiBiblioteca.Domain.dll
+C:\Users\zarcs\Documents\Mi biblioteca\MiBiblioteca.Application\bin\Debug\net10.0\MiBiblioteca.Domain.pdb
+C:\Users\zarcs\Documents\Mi biblioteca\MiBiblioteca.Application\obj\Debug\net10.0\MiBiblioteca.Application.csproj.AssemblyReference.cache
+C:\Users\zarcs\Documents\Mi biblioteca\MiBiblioteca.Application\obj\Debug\net10.0\MiBiblioteca.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zarcs\Documents\Mi biblioteca\MiBiblioteca.Application\obj\Debug\net10.0\MiBiblioteca.Application.AssemblyInfoInputs.cache
+C:\Users\zarcs\Documents\Mi biblioteca\MiBiblioteca.Application\obj\Debug\net10.0\MiBiblioteca.Application.AssemblyInfo.cs
+C:\Users\zarcs\Documents\Mi biblioteca\MiBiblioteca.Application\obj\Debug\net10.0\MiBiblioteca.Application.csproj.CoreCompileInputs.cache
+C:\Users\zarcs\Documents\Mi biblioteca\MiBiblioteca.Application\obj\Debug\net10.0\MiBiblioteca.Application.sourcelink.json
+C:\Users\zarcs\Documents\Mi biblioteca\MiBiblioteca.Application\obj\Debug\net10.0\MiBiblio.3F552464.Up2Date
+C:\Users\zarcs\Documents\Mi biblioteca\MiBiblioteca.Application\obj\Debug\net10.0\MiBiblioteca.Application.dll
+C:\Users\zarcs\Documents\Mi biblioteca\MiBiblioteca.Application\obj\Debug\net10.0\refint\MiBiblioteca.Application.dll
+C:\Users\zarcs\Documents\Mi biblioteca\MiBiblioteca.Application\obj\Debug\net10.0\MiBiblioteca.Application.pdb
+C:\Users\zarcs\Documents\Mi biblioteca\MiBiblioteca.Application\obj\Debug\net10.0\ref\MiBiblioteca.Application.dll
