@@ -26,10 +26,50 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/zarcs/Documents/Mi biblioteca/MiBiblioteca.web/Views/Libros/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zarcs/Documents/Mi biblioteca/MiBiblioteca.web/Views/Libros/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/zarcs/Documents/Mi biblioteca/MiBiblioteca.web/Views/Libros/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/zarcs/Documents/Mi biblioteca/MiBiblioteca.web/Views/Prestamos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zarcs/Documents/Mi biblioteca/MiBiblioteca.web/Views/Prestamos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zarcs/Documents/Mi biblioteca/MiBiblioteca.web/Views/Prestamos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zarcs/Documents/Mi biblioteca/MiBiblioteca.web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zarcs/Documents/Mi biblioteca/MiBiblioteca.web/Views/Usuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zarcs/Documents/Mi biblioteca/MiBiblioteca.web/Views/Usuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/zarcs/Documents/Mi biblioteca/MiBiblioteca.web/Views/Usuarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zarcs/Documents/Mi biblioteca/MiBiblioteca.web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zarcs/Documents/Mi biblioteca/MiBiblioteca.web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

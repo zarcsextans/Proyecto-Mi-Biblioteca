@@ -1,0 +1,66 @@
+﻿@model MiBiblioteca.Web.Models.UsuarioViewModel
+
+
+@{
+    ViewData["Title"] = "Nuevo Usuario";
+}
+
+
+<h1>Nuevo Usuario</h1>
+
+
+<form asp-action="Create" method="post">
+
+
+    <div class="mb-3">
+
+        <label class="form-label">
+            Nombre
+        </label>
+
+        <input asp-for="Nombre"
+               class="form-control" />
+
+    </div>
+
+
+
+    <div class="mb-3">
+
+        <label class="form-label">
+            Correo
+        </label>
+
+        <input asp-for="Correo"
+               class="form-control" />
+
+    </div>
+
+
+
+    <div class="mb-3">
+
+        <label class="form-label">
+            Teléfono
+        </label>
+
+        <input asp-for="Telefono"
+               class="form-control" />
+
+    </div>
+
+
+
+    <button type="submit"
+            class="btn btn-success">
+        Guardar
+    </button>
+
+
+    <a asp-action="Index"
+           class="btn btn-secondary">
+        Cancelar
+    </a>
+
+
+</form>

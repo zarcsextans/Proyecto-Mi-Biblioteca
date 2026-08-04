@@ -1,0 +1,108 @@
+﻿@model MiBiblioteca.Web.Models.PrestamoViewModel
+
+
+@{
+    ViewData["Title"] = "Editar Préstamo";
+}
+
+
+<h1>Editar Préstamo</h1>
+
+
+<form asp-action="Edit" method="post">
+
+
+    <input type="hidden" asp-for="Id" />
+
+
+    <div class="mb-3">
+
+        <label class="form-label">
+            Usuario ID
+        </label>
+
+        <input asp-for="UsuarioId"
+               class="form-control" />
+
+    </div>
+
+
+
+    <div class="mb-3">
+
+        <label class="form-label">
+            Libro ID
+        </label>
+
+        <input asp-for="LibroId"
+               class="form-control" />
+
+    </div>
+
+
+
+    <div class="mb-3">
+
+        <label class="form-label">
+            Fecha de préstamo
+        </label>
+
+        <input asp-for="FechaPrestamo"
+               class="form-control"
+               readonly />
+
+    </div>
+
+
+
+    <div class="mb-3">
+
+        <label class="form-label">
+            Fecha de devolución
+        </label>
+
+        <input asp-for="FechaDevolucion"
+               type="datetime-local"
+               class="form-control" />
+
+    </div>
+
+
+
+    <div class="mb-3">
+
+        <label class="form-label">
+            Estado
+        </label>
+
+        <select asp-for="Estado"
+                class="form-control">
+
+            <option value="1">
+                Activo
+            </option>
+
+            <option value="2">
+                Devuelto
+            </option>
+
+        </select>
+
+    </div>
+
+
+
+    <button type="submit"
+            class="btn btn-success">
+        Guardar cambios
+    </button>
+
+
+
+    <a asp-action="Index"
+           class="btn btn-secondary">
+        Cancelar
+    </a>
+
+
+</form>

@@ -19,6 +19,7 @@ public class LibrosController : Controller
 
 
 
+    // LISTAR
     public async Task<IActionResult> Index()
     {
 
@@ -28,7 +29,98 @@ public class LibrosController : Controller
             );
 
 
-        return View(libros ?? new List<LibroViewModel>());
+        return View(
+            libros ?? new List<LibroViewModel>()
+        );
+
+    }
+
+
+
+    // MOSTRAR FORMULARIO CREAR
+    [HttpGet]
+    public IActionResult Create()
+    {
+        return View();
+    }
+
+
+
+    // CREAR
+    [HttpPost]
+    public async Task<IActionResult> Create(
+        LibroViewModel libro)
+    {
+
+        await api.PostAsync(
+            "Libros",
+            libro
+        );
+
+
+        return RedirectToAction(
+            nameof(Index)
+        );
+
+    }
+
+
+
+    // MOSTRAR FORMULARIO EDITAR
+    [HttpGet]
+    public async Task<IActionResult> Edit(int id)
+    {
+
+        var libro =
+            await api.GetAsync<LibroViewModel>(
+                $"Libros/{id}"
+            );
+
+
+        if (libro == null)
+            return NotFound();
+
+
+        return View(libro);
+
+    }
+
+
+
+    // GUARDAR CAMBIOS
+    [HttpPost]
+    public async Task<IActionResult> Edit(
+        LibroViewModel libro)
+    {
+
+        await api.PutAsync(
+            "Libros",
+            libro
+        );
+
+
+        return RedirectToAction(
+            nameof(Index)
+        );
+
+    }
+
+
+
+    // ELIMINAR
+    [HttpPost]
+    public async Task<IActionResult> Delete(
+        int id)
+    {
+
+        await api.DeleteAsync(
+            $"Libros/{id}"
+        );
+
+
+        return RedirectToAction(
+            nameof(Index)
+        );
 
     }
 

@@ -44,8 +44,26 @@ public class PrestamoService
 
 
     public void ActualizarPrestamo(
-        Prestamo prestamo)
+    Prestamo prestamo)
     {
+
+        if (prestamo.FechaDevolucion.HasValue)
+        {
+            prestamo.FechaDevolucion =
+                DateTime.SpecifyKind(
+                    prestamo.FechaDevolucion.Value,
+                    DateTimeKind.Utc
+                );
+        }
+
+
+        prestamo.FechaPrestamo =
+            DateTime.SpecifyKind(
+                prestamo.FechaPrestamo,
+                DateTimeKind.Utc
+            );
+
+
         repository.Actualizar(prestamo);
     }
 }
